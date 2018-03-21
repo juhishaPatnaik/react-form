@@ -38,7 +38,7 @@ class ShipComp extends Component {
             <div className = "FormGrp">
             <label htmlFor = "cityStateZip"> 
                 < span className = "Astric" > * </span>City, State, Zip:</label>
-            <nput className = "Input"
+            <input className = "Input"
             type = "text"
             name = "cityStateZip"
             placeholder = "City, State, Zip"
