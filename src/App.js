@@ -9,18 +9,30 @@ import TableComp from './components/TableComp';
 import CommentComp from './components/CommentComp';
 import AttachmentComp from './components/AttachmentComp';
 import UserroleComp from './components/UserroleComp';
-
-class App extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
+const initialState= {
             businessID: '',
             soldBusinessName: '',
             shipBusinessName: '',
             shipAddress: '',
             shipAddress1: '',
             cityStateZip: '',
-        }
+        };
+class App extends Component {
+    constructor(props) {
+        super(props);
+        this.state = initialState;
+        this.COrderHandler = this.COrderHandler.bind(this);
+    }
+    COrderHandler(){
+        console.log('canceled');
+        this.setState({
+            businessID: '',
+            soldBusinessName: '',
+            shipBusinessName: '',
+            shipAddress: '',
+            shipAddress1: '',
+            cityStateZip: '',
+        });
     }
     handleChange(e) {
         // console.log(e.target.name);
@@ -41,7 +53,7 @@ class App extends Component {
            
             <ShipmentComp handleChange = {
                 (e) => { this.handleChange(e) }
-            }/>
+            } data = { this.state }/>
             <div className = "lineGrey" ></div>
             <AdditionalComp />
             <OrderPlacedComp />
@@ -49,7 +61,7 @@ class App extends Component {
             <TableComp/>
             <CommentComp/>
             <AttachmentComp/>
-            <UserroleComp data = { this.state }/>
+            <UserroleComp data = { this.state } COrder={this.COrderHandler}/>
            
             <div className = "line" > </div>
             </div >
