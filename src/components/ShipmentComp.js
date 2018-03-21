@@ -8,10 +8,10 @@ class ShipmentComp extends Component {
           <div className = "comp2">
             <SoldComp handleChange = {
                 (e) => { this.props.handleChange(e) }
-            }/>
+            } data={this.props.data}/>
             <ShipComp handleChange = {
                 (e) => { this.props.handleChange(e) }
-            }/>
+            } data={this.props.data}/>
           </div >
         )
     }
