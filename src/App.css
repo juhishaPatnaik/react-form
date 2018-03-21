@@ -1,0 +1,122 @@
+.App {
+  /* text-align: center; */
+}
+
+.App-logo {
+  /* animation: App-logo-spin infinite 20s linear; */
+  height: 80px;
+}
+.App-logo-span{
+  float: right;
+  /* padding: 10px;s */
+}
+
+.App-header {
+  background-color: #fff;
+  height: 150px;
+  padding: 20px;
+  color: #004d99;  
+}
+.App-body{
+   padding: 40px 10px 10px 10px; 
+}
+
+.line {
+    content: " ";
+    display: block;
+    border-bottom: 10px solid #004d99;
+  }
+
+.App-title {
+   font-size: 1.5em; 
+   position: relative;
+   float: left;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+/* @keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+} */
+
+.btnapp {
+  width: 15%;
+}
+
+.comp1{
+  background-color: #e6e6e6;
+  display: grid;
+  grid-template-columns: auto auto ;
+  padding: 10px;
+}
+.grid-item{
+  /* border: 1px solid rgba(0, 0, 0, 0.8); */
+  /* padding: 20px; */
+  /* font-size: 30px; */
+  /* text-align: left; */
+}
+.comp2{
+  /* background-color: #e6e6e6; */
+  display: grid;
+  grid-template-columns: auto auto ;
+  padding: 10px;
+}
+
+.Input {
+    width: 60%;
+    float: right;
+}
+  .FormGrp {
+    padding-bottom: 10px;
+  }
+
+.lineGrey {
+    content: " ";
+    display: block;
+    border-bottom: 20px solid #e6e6e6;
+  }
+.Astric{
+  color: red;
+}
+.comp3{
+  text-align: center;
+}
+
+table {
+    /* font-family: arial, sans-serif; */
+     border-collapse: collapse; 
+    /* position: relative; */
+    table-layout: fixed;
+    width: 100%;
+    
+}
+  .tablecontainer{
+    padding-bottom: 20px;
+  }
+
+td, th {
+    border-bottom: 3px solid #dddddd;
+    /* text-align: center; */
+    padding: 3px; 
+    /* font-size: 10px; */
+}
+
+th{
+  background-color: #e6e6e6;
+}
+
+.tableText{
+  /* max-width: 35px; */
+  width: 100%
+}
+tr:nth-child(even) {
+    /* background-color: #dddddd; */
+}
+.comp4{
+     padding: 5px; 
+    border-bottom: 3px solid #dddddd;
+    border-top: 3px solid #dddddd;
+}
