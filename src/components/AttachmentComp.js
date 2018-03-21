@@ -1,6 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
+import attachmentLogo from '../attachment.png';
+import AttachmentButton from './attachnmentButton';
 
-class AttachmentComp extends Component {
+class AttachmentComp extends React.Component {
 	render() {
 		return (
 			<div className="comp4" >
@@ -11,11 +13,11 @@ class AttachmentComp extends Component {
 							<th>Attachment</th>
 						</tr>
 						<tr>
-							<td>
-								<input type="file" />
+							<td>								
+								<AttachmentButton id={'file-input1'}/>							
 							</td>
 							<td>
-								<input type="file" />
+								<AttachmentButton id={'file-input2'}/>
 							</td>
 						</tr>
 					</tbody>

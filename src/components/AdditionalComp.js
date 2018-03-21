@@ -27,8 +27,8 @@ class AdditionalComp extends Component {
 	              <label htmlFor="salseTerritory"><span className="Astric">*</span>Salse Territory :</label>
 	              <select className="Input" style={{'width':'61%'}} name="salseTerritory">
 	                <option value="">Select ...</option>
-	                <option value="1">sfsfff</option>
-	                <option value="2">sfsfff</option>
+	                <option value="1">American Samoa</option>
+	                <option value="2">Bajo Nuevo Bank</option>
 	              </select>
 	            </div>
 	            <div className="FormGrp">
@@ -43,8 +43,8 @@ class AdditionalComp extends Component {
 	              <label htmlFor="verticalMarket"><span className="Astric">*</span>Vertical Market:</label>
 	              <select className="Input" style={{'width':'61%'}} name="verticalMarket">
 	                <option value="">Select ...</option>
-	                <option value="1">sfsfff</option>
-	                <option value="2">sfsfff</option>
+	                <option value="1">Banking</option>
+	                <option value="2">Consumer</option>
 	              </select>
 	            </div>
 	          </div>

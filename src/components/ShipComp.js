@@ -28,15 +28,15 @@ class ShipComp extends Component {
                 } />
             </div>
             <div className = "FormGrp">
-                <label htmlFor = "shipAddress1" > { ' ' } </label>
-                <input className = "Input"
+                <div style={{"display": "inline-block"}}><label htmlFor = "shipAddress1" ></label></div>
+                <div style={{"width": "100%","display": "inline-block"}}><input className = "Input"
                 type = "text"
                 name = "shipAddress1"
                 placeholder = "Address"
                 value={this.props.data.shipAddress1}
                 onChange = {
                     (e) => { this.props.handleChange(e) }
-                }/>
+                }/></div>
             </div >
             <div className = "FormGrp">
                 <label htmlFor = "cityStateZip"> 

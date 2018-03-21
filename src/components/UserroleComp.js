@@ -5,7 +5,7 @@ class UserroleComp extends Component {
         super(props);
     }
     Submit(e) {
-        console.log(this.props);
+        console.log(this.props.data);
     }
     Close() {
         console.log('Close Button');
