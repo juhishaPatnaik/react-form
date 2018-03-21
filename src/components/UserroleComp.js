@@ -47,7 +47,7 @@ class UserroleComp extends Component {
             } > Submit </button> 
             <button className = "btnapp" onClick = { this.Engineering } > Engineering </button>
             <button className = "btnapp" onClick = { this.Hold } > On Hold </button>
-            <button className = "btnapp" onClick = { this.Order } > Cancel Order </button>
+            <button className = "btnapp" onClick = { this.props.COrder } > Cancel Order </button>
             <button className = "btnapp" onClick = { this.Complete } > Complete </button>
             </div>
             <br/>
