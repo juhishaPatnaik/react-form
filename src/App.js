@@ -38,7 +38,7 @@ class App extends Component {
             <HeaderComp/>
             <div className = "line"></div>
             <DatesComp />
-            <form>
+           
             <ShipmentComp handleChange = {
                 (e) => { this.handleChange(e) }
             }/>
@@ -50,7 +50,7 @@ class App extends Component {
             <CommentComp/>
             <AttachmentComp/>
             <UserroleComp data = { this.state }/>
-            </form>
+           
             <div className = "line" > </div>
             </div >
         );
