@@ -20,7 +20,7 @@ class UserroleComp extends Component {
         console.log('On Hold button');
     }
     Order(){
-        console.log('Order button');
+        console.log('Cancel Order button');
     }
     Complete(){
         console.log('Complete button');
