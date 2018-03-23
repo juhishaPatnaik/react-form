@@ -1,5 +1,5 @@
 import React from 'react';
-import attachmentLogo from '../attachment.png';
+
 import AttachmentButton from './attachnmentButton';
 
 class AttachmentComp extends React.Component {
